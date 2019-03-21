@@ -1,0 +1,31 @@
+body
+{
+    color: black;
+    background-color:#151515
+}
+
+div.writeInfo
+{
+	color: white;   
+}
+
+#text
+{
+    background-color:#505050;
+}
+
+div.task.done.ng-binding
+{
+    color: white;   
+}
+div.task.todo.ng-binding
+{
+    color: white;   
+}
+
+div#answercontainer.false
+{
+    color: black;   
+}
+
+
