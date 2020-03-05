@@ -1,31 +1,46 @@
-body
+body 
 {
-    color: black;
-    background-color:#151515
+        background: #222222;
 }
 
-div.writeInfo
+#text 
 {
-	color: white;   
+	background: #333333;
+	border: solid;
+	border-color: black;
+	color: white;
 }
 
-#text
+#text #answercontainer 
 {
-    background-color:#505050;
+	background: #999;
+}
+#text input.answer 
+{
+	background: #999;
+}
+#controls .stats div 
+{
+	color: white;
+}
+td 
+{
+	color: white;
+}
+h4 
+{
+	color: white;
 }
 
-div.task.done.ng-binding
+#text #answercontainer input.answer[disabled], #text #answercontainer.true 
 {
-    color: white;   
-}
-div.task.todo.ng-binding
-{
-    color: white;   
+	background:  #999;
 }
 
-div#answercontainer.false
+
+#answercontainer input.answer[disabled] 
 {
-    color: black;   
+	background:  #999;
 }
 
 
